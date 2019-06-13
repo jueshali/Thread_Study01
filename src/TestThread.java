@@ -1,6 +1,9 @@
-/*
-快乐影院
- */
+/**
+ * @name: Thread_Study01
+ * @deprecated : 测试注释信息
+ * @author: Lpc
+ * @date : 2019-06-13 20:54
+ **/
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,7 +59,7 @@ class Customer implements Runnable{
         this.cinema = cinema;
         this.seats = seats;
     }
-
+    @Override
     public void run() {
         synchronized (cinema) {
             boolean flag = cinema.bookTickets(seats);
