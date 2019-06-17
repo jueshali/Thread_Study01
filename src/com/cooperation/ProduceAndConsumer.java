@@ -26,6 +26,8 @@ class Productor extends Thread{
             System.out.println("生产第--》"+i+"个馒头");
             container.push(new Steamedbun(i));
         }
+
+        System.out.println("hello world");
     }
 
 }
