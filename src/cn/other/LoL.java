@@ -16,8 +16,6 @@ public class LoL {
         new Thread(sj).start();
     }
 }
-
-
 class Hero implements Runnable{
     String name;
     Hero hero;
